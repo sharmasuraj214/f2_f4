@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <section class="top">
+        <div class="logo">
+            <div><img src="./asset/logo.svg" /></div>
+            <div class="logo-text">
+                <span class="logo-to">to</span><span class="logo-do">do</span>
+            </div>
+        </div>
+    </section>
+
+    <form class="input-box" id="button-form">
+        <input type="text" name="text" id="input-tag" placeholder="Enter Your To-do List Task" required />
+        <input class="inputdate" type="date" name="date" id="input-date" required>
+        <div class="button">
+            <button type="submit">
+                Add <span class="material-symbols-outlined">add_circle</span>
+            </button>
+        </div>
+    </form>
+
+    <section class="todo">
+        <div class="todo-section" id="TO_DO">
+            <div class="todo-head">
+                <div class="first-item">
+                    <p>To-Do list</p>
+                </div>
+                <div class="second-item">
+                    <p>High Priority</p>
+                </div>
+            </div>
+        </div>
+
+        <div  class="if-empty none-display">
+            <div>
+                <img src="./asset/empty.svg" alt="" />
+            </div>
+            <div>
+                <p class="empty-text">You have no To-do Items As of now</p>
+            </div>
+        </div>
+        <div id="create-js"></div>
+
+        <div class="todo-section" id="STARTED">
+            <div class="todo-head">
+                <div class="first-item">
+                    <p>Started</p>
+                </div>
+                <div class="second-item">
+                    <p>High Priority</p>
+                </div>
+            </div>
+        </div>
+        <div class="if-empty none-display">
+            <div>
+                <img src="./asset/empty.svg" alt="" />
+            </div>
+            <div>
+                <p class="empty-text">You have no To-do Items As of now</p>
+            </div>
+        </div>
+        <div id="create-js"></div>
+
+        <div class="todo-section" id="COMPLETED">
+            <div class="todo-head">
+                <div class="first-item">
+                    <p>Completed</p>
+                </div>
+                <div class="second-item">
+                    <p>High Priority</p>
+                </div>
+            </div>
+        </div>
+        <div class="if-empty none-display">
+            <div>
+                <img src="./asset/empty.svg" alt="" />
+            </div>
+            <div>
+                <p class="empty-text">You have no To-do Items As of now</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

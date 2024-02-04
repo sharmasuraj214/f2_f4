@@ -1,0 +1,236 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    overflow-x: hidden;
+  }
+   
+  .top {
+    background: #0d0d0d;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .logo-to {
+    color: rgba(78, 168, 222, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .logo-do {
+    color: rgba(94, 96, 206, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+   
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .input-box {
+    width: 100vw;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: -20px;
+  }
+   
+  .input-box input {
+    border-radius: 10px;
+    width: 644px;
+    height: 50px;
+    background-color: rgba(38, 38, 38, 1);
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    border: 1px solid rgba(13, 13, 13, 1);
+  }
+  
+  .input-box .inputdate {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(38, 38, 38, 1);
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    border: 1px solid rgba(13, 13, 13, 1);
+  }
+  
+  
+  
+  
+  
+  
+  .input-box button {
+    background-color: rgba(30, 111, 159, 1);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 84px;
+    height: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+   
+  .todo {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap: 30px;
+    padding: 20px;
+  }
+   
+  .todo-section {
+    border-bottom: 1px solid rgba(51, 51, 51, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    /* border: 1px solid white; */
+  }
+   
+  .todo-head {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 50vw;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(130, 132, 250, 1);
+  }
+   
+  .first-item,
+  .second-item {
+    cursor: pointer;
+    width: fit-content;
+  }
+   
+  .if-empty {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 688px;
+    height: 22px;
+  }
+   
+  .empty-text {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(128, 128, 128, 1);
+    text-align: center;
+  }
+   
+  .checkbox-round {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid rgba(78, 168, 222, 1);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+  }
+   
+  .checkbox-round:checked {
+    background-image: url(./asset/check.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+  }
+   
+  .none-display {
+    display: none;
+  }
+   
+  .create-js {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 50vw;
+    /* border: 1px solid white; */
+    padding: 10px;
+  }
+  
+  
+   
+  .create-js-button {
+    background-color: transparent;
+    border: none;
+  }
+   
+  .delete {
+    color: rgba(128, 128, 128, 1);
+    cursor: pointer;
+  }
+   
+  .create-js-label {
+    font-family: "Inter", sans-serif;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(242, 242, 242, 1);
+  }
+  
+  .create-js-date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(242, 242, 242, 1);
+  }
+   
+   
